@@ -1,0 +1,9 @@
+mkdir zoom_automation
+
+cd zoom_automation
+
+virtualenv env
+source env/bin/activate          ***this is for Mac and Linux
+.\env\scripts\activate             *** this is for Windows
+
+pip install schedule
